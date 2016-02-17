@@ -11,7 +11,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="demo-default.html">instituto constelar de gestalt terapia</a>
+                    <a class="navbar-brand" href="demo-default.html">instituto constelar</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right scrollto">
@@ -48,7 +48,7 @@
                          data-endelementdelay="0.1"
                          data-endspeed="1500"
                          data-endeasing="Power4.easeIn"
-                         data-autoplay="true"
+                         data-autoplay="false"
                          data-autoplayonlyfirsttime="false"
                          data-nextslideatend="true"
                          data-volume="mute"
@@ -58,8 +58,6 @@
                          style="z-index: 2;">
                         <video class="img-responsive" preload="none"
                                poster='/templates/codeon/img/star-cover.jpg'>
-                            <source src='http://bootstraplovers.com/videos/among_the_stars.mp4' type='video/mp4' />
-                            <source src='http://bootstraplovers.com/videos/among_the_stars.webm' type='video/webm' />
                         </video>
                     </div>
 
@@ -113,92 +111,6 @@
                         </div>
                     </div>
                 </li>
-
-                <!-- SLIDE  -->
-                <li data-transition="slidehorizontal" data-slotamount="1" data-masterspeed="1000" data-thumb="/templates/codeon/img/typing-cover.jpg"  data-saveperformance="off"  data-title="Quick Results">
-                    <!-- MAIN IMAGE -->
-                    <img src="/templates/codeon/img/typing-cover.jpg"  alt="video_typing_cover"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                    <!-- LAYERS -->
-
-                    <!-- LAYER NR. 1 -->
-                    <div class="tp-caption tp-fade fadeout fullscreenvideo"
-                         data-x="0"
-                         data-y="0"
-                         data-speed="1000"
-                         data-start="1100"
-                         data-easing="Power4.easeOut"
-                         data-elementdelay="0.01"
-                         data-endelementdelay="0.1"
-                         data-endspeed="1500"
-                         data-endeasing="Power4.easeIn"
-                         data-autoplay="true"
-                         data-autoplayonlyfirsttime="false"
-                         data-nextslideatend="true"
-                         data-volume="mute"
-                         data-forceCover="1"
-                         data-aspectratio="16:9"
-                         data-forcerewind="on"
-                         style="z-index: 2;">
-                        <video class="img-responsive" preload="none"
-                               poster='/templates/codeon/img/typing-cover.jpg'>
-                            <source src='http://bootstraplovers.com/videos/computer_typing.mp4' type='video/mp4' />
-                            <source src='http://bootstraplovers.com/videos/computer_typing.webm' type='video/webm' />
-                        </video>
-                    </div>
-
-                    <!-- Home Heading -->
-                    <div class="tp-caption sft Ken-burns-heading"
-                         data-x="center"
-                         data-y="260"
-                         data-speed="1200"
-                         data-start="1100"
-                         data-easing="Power3.easeInOut"
-                         data-splitin="none"
-                         data-splitout="none"
-                         data-elementdelay="0.1"
-                         data-endelementdelay="0.1"
-                         data-endspeed="300"
-                         style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">
-                        Super coders
-                    </div>
-                    <!-- Home Subheading -->
-                    <div class="tp-caption ken-burns-cap sft fadeout"
-                         data-x="center"
-                         data-y="390"
-                         data-speed="1200"
-                         data-start="1350"
-                         data-easing="Power3.easeInOut"
-                         data-splitin="none"
-                         data-splitout="none"
-                         data-elementdelay="0.1"
-                         data-endelementdelay="0.1"
-                         data-endspeed="300"
-                         style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">
-                        WORDPRESS · PHP · TEMPLATE DESIGN · PSD DESIGN
-                    </div>
-                    <!-- Home Button -->
-                    <div class="tp-caption rev-buttons sft fadeout"
-                         data-x="center"
-                         data-y="450"
-                         data-speed="1200"
-                         data-start="1550"
-                         data-easing="Power3.easeInOut"
-                         data-splitin="none"
-                         data-splitout="none"
-                         data-elementdelay="0.1"
-                         data-endelementdelay="0.1"
-                         data-endspeed="300"
-                         style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">
-                        <div class="rev-buttons scrollto">
-
-                            <a href="#about" class="btn btn-theme-color btn-lg">
-                                About us
-                            </a>
-
-                        </div>
-                    </div>
-                </li>
-
             </ul>
 
         </div>
@@ -700,9 +612,13 @@
                             <img src="/templates/codeon/img/team-1.jpg" class="img-responsive" alt="">
                             <div class="person-desc">
                                 <h4>Aline Amorim</h4>
-                                <em>Psicóloga</em>
+                                <em>Psicóloga - CRP 05/43203</em>
                                 <p>
-                                    Vivamus motestues phasellus enim sed orci eu pharetra. Donec posuere nunc vitae tortor sagittis feugiat in non massa. Quisqueeas sed mi nec.
+                                    Psicóloga (UERJ/2011). Gestalt-terapeuta (IPGF/2014). Formação em Constelação Familiar (IPGF/previsão 2016). Palestrante em congressos. Atua em consultório particular atendendo adolescentes e adultos.
+                                </p>
+                                <p>
+                                    <i class="fa fa-phone"></i> (21) 9-8092-6956 <br>
+                                    <i class="fa fa-envelope"></i> <a href="mailto:amorimaline@yahoo.com.br">amorimaline@yahoo.com.br</a>
                                 </p>
                             </div>
                         </div>
@@ -712,9 +628,13 @@
                             <img src="/templates/codeon/img/team-2.jpg" class="img-responsive" alt="">
                             <div class="person-desc">
                                 <h4>Andrélia Guimarães</h4>
-                                <em>Psicóloga</em>
+                                <em>Psicóloga - CRP 05/12345</em>
                                 <p>
-                                    Vivamus motestues phasellus enim sed orci eu pharetra. Donec posuere nunc vitae tortor sagittis feugiat in non massa. Quisqueeas sed mi nec.
+                                    Psicóloga (USU/1988), Gestalt-terapeuta (Vita Clínica/1993 - IPGF/2014), formação em Hipnoterapia (IBH/2011). Em formação em Constelação Familiar (IPGF/previsão 2015). Coordenadora de cursos, workshops e facilitadora de processos grupais em congressos, empresas, escolas e consultório. Palestrante em escolas e empresas. Atendendo em consultório particular, crianças, adolescentes, adultos e grupos.
+                                </p>
+                                <p>
+                                    <i class="fa fa-phone"></i> (21) 9-9999-9999 <br>
+                                    <i class="fa fa-envelope"></i> <a href="mailto:andrelia@yahoo.com.br">andrelia@yahoo.com.br</a>
                                 </p>
                             </div>
                         </div>
@@ -895,9 +815,9 @@
                         <h4>Informações para contato</h4>
                         <div class="contact-info wow animated fadeInRight" data-wow-delay=".6s">
                             <p><i class="fa fa-home"></i> Rua do Catete, 311 sala 1301B</p>
-                            <p><i class="fa fa-home"></i> (21) 3901-9935</p>
-                            <p><b>Fax:</b> (21) 9-8092-6956</p>
-                            <p><i class="fa fa-envelope"></i> <a href="#">contato@institutoconstelar.com.br</a></p>
+                            <p><i class="fa fa-phone"></i> (21) 3901-9935</p>
+                            <p><i class="fa fa-mobile"></i> (21) 9-8092-6956</p>
+                            <p><i class="fa fa-envelope"></i> <a href="mailto:contato@institutoconstelar.com.br">contato@institutoconstelar.com.br</a></p>
                             <p><i class="fa fa-clock-o"></i> Segunda-Sexta 8:00-21:00pm</p>
                             <hr>
                             <h4>Redes Sociais</h4>

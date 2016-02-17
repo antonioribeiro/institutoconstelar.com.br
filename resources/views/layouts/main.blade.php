@@ -79,7 +79,7 @@
                     center: myLatlng,
                     mapTypeId: google.maps.MapTypeId.ROADMAP,
                     scrollwheel: false,
-                    draggable: false
+                    draggable: true
                 };
                 map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
