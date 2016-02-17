@@ -871,7 +871,7 @@
                 </div>
                 <div class="col-md-6 col-sm-6 footer-nav">
                     <ul class="list-inline">
-                        <li><a href="/">Home</a></li>
+                        <li><a href="#home" class="scrollto">Home</a></li>
                     </ul>
                 </div>
             </div>
