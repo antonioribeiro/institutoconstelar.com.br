@@ -75,13 +75,13 @@
                         <p><i class="fa fa-home"></i> Rua do Catete, 311 sala 1301B</p>
                         <p><i class="fa fa-phone"></i> (21) 3901-9935</p>
                         <p><i class="fa fa-mobile"></i> (21) 9-8092-6956</p>
-                        <p><i class="fa fa-envelope"></i> <a href="mailto:contato@institutoconstelar.com.br">contato@institutoconstelar.com.br</a></p>
+                        <p><i class="fa fa-envelope"></i> <a href="mailto:{{ config('mail.from.address') }}">{{ config('mail.from.address') }}</a></p>
                         <p><i class="fa fa-clock-o"></i> Segunda-Sexta 8:00-21:00pm</p>
                         <hr>
                         <h4>Redes Sociais</h4>
                         <ul class="list-inline social-colored">
-                            <li><a href="https://www.facebook.com/InstitutoConstelar/"><i class="fa fa-facebook icon-fb" data-toggle="tooltip" title="" data-original-title="Facebook" data-placement="top"></i></a></li>
-                            <li><a href="https://twitter.com/institutoconstelar"><i class="fa fa-twitter icon-twit" data-toggle="tooltip" title="" data-original-title="Twitter" data-placement="top"></i></a></li>
+                            <li><a href="{{ config('app.facebook_page') }}"><i class="fa fa-facebook icon-fb" data-toggle="tooltip" title="" data-original-title="Facebook" data-placement="top"></i></a></li>
+                            <li><a href="{{ config('app.twitter_page') }}"><i class="fa fa-twitter icon-twit" data-toggle="tooltip" title="" data-original-title="Twitter" data-placement="top"></i></a></li>
                             <li><a href="#"><i class="fa fa-google-plus icon-plus" data-toggle="tooltip" title="" data-original-title="Google pluse" data-placement="top"></i></a></li>
                             <li><a href="#"><i class="fa fa-linkedin icon-in" data-toggle="tooltip" title="" data-original-title="Linkedin" data-placement="top"></i></a></li>
 

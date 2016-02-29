@@ -43,7 +43,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Instituto Constelar</div>
+                <div class="title">{{ config('app.name') }}</div>
                 <div class="subtitle">EM BREVE</div>
             </div>
         </div>

@@ -11,7 +11,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="demo-default.html">instituto constelar</a>
+                    <a class="navbar-brand" href="demo-default.html">{{ config('app.name') }}</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right scrollto">
@@ -74,7 +74,7 @@
                          data-endelementdelay="0.1"
                          data-endspeed="300"
                          style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">
-                        Instituto Constelar
+                        {{ config('app.name') }}
                     </div>
                     <!-- Home Subheading -->
                     <div class="tp-caption ken-burns-cap sft fadeout"
@@ -769,7 +769,7 @@
                 <div class="col-sm-4">
                     <div class="contact-col wow animated flipInY" data-wow-delay=".3s">
                         <i class="fa fa-envelope"></i>
-                        <p>contato@institutoconstelar.com.br</p>
+                        <p>{{ config('mail.from.address') }}</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -787,7 +787,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6 copyright">
-                    <span>&copy;2016. Instituto Constelar. Desenvolvido por <a href="https://antoniocarlosribeiro.com">Antonio Carlos Ribeiro</a>.</span>
+                    <span>&copy;2016. {{ config('app.name') }}. Desenvolvido por <a href="https://antoniocarlosribeiro.com">Antonio Carlos Ribeiro</a>.</span>
                 </div>
                 <div class="col-md-6 col-sm-6 footer-nav">
                     <ul class="list-inline">
