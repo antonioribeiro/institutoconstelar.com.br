@@ -32,9 +32,9 @@
         <div class="tp-banner-video">
             <ul>
                 <!-- SLIDE  -->
-                <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="/templates/codeon/img/star-cover.jpg"  data-saveperformance="off"  data-title="Quick Results">
+                <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="/img/lavanda.jpg"  data-saveperformance="off"  data-title="Quick Results">
                     <!-- MAIN IMAGE -->
-                    <img src="/templates/codeon/img/star-cover.jpg"  alt="video_typing_cover"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                    <img src="/img/lavanda.jpg"  alt="video_typing_cover"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 1 -->
@@ -57,7 +57,7 @@
                          data-forcerewind="on"
                          style="z-index: 2;">
                         <video class="img-responsive" preload="none"
-                               poster='/templates/codeon/img/star-cover.jpg'>
+                               poster='/img/lavanda.jpg'>
                         </video>
                     </div>
 
