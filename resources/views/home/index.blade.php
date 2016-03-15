@@ -89,27 +89,27 @@
                          data-endelementdelay="0.1"
                          data-endspeed="300"
                          style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">
-                        Psicoterapia / Gestalt Terapia
+                        Psicoterapia / Gestalt Terapia / Constelação Familiar
                     </div>
                     <!-- Home Button -->
-                    <div class="tp-caption home-button sft fadeout"
-                         data-x="center"
-                         data-y="450"
-                         data-speed="1200"
-                         data-start="1550"
-                         data-easing="Power3.easeInOut"
-                         data-splitin="none"
-                         data-splitout="none"
-                         data-elementdelay="0.1"
-                         data-endelementdelay="0.1"
-                         data-endspeed="300"
-                         style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">
-                        <div class="rev-buttons scrollto">
-                            <a href="#work" class="btn btn-theme-color btn-lg">
-                                Nosso Espaço
-                            </a>
-                        </div>
-                    </div>
+                    {{--<div class="tp-caption home-button sft fadeout"--}}
+                         {{--data-x="center"--}}
+                         {{--data-y="450"--}}
+                         {{--data-speed="1200"--}}
+                         {{--data-start="1550"--}}
+                         {{--data-easing="Power3.easeInOut"--}}
+                         {{--data-splitin="none"--}}
+                         {{--data-splitout="none"--}}
+                         {{--data-elementdelay="0.1"--}}
+                         {{--data-endelementdelay="0.1"--}}
+                         {{--data-endspeed="300"--}}
+                         {{--style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">--}}
+                        {{--<div class="rev-buttons scrollto">--}}
+                            {{--<a href="#work" class="btn btn-theme-color btn-lg">--}}
+                                {{--Nosso Espaço--}}
+                            {{--</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
                 </li>
             </ul>
 

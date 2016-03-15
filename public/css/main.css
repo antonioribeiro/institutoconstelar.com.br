@@ -2,3 +2,10 @@
     color: #C51D1D;
     font-size: 14px;
 }
+
+.ken-burns-cap {
+    font-weight: 700;
+    font-size: 18px;
+    background: rgba(0, 84, 148, 0.5);
+    padding: 20px;
+}
