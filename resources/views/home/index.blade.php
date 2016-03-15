@@ -609,7 +609,7 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="person">
-                            <img src="/templates/codeon/img/team-1.jpg" class="img-responsive" alt="">
+                            <img src="/img/aline-quadrada-500px.jpg" class="img-responsive" alt="">
                             <div class="person-desc">
                                 <h4>Aline Amorim</h4>
                                 <em>Psicóloga - CRP 05/43203</em>
@@ -625,7 +625,7 @@
                     </div><!--team-col-->
                     <div class="col-sm-6">
                         <div class="person">
-                            <img src="/templates/codeon/img/team-2.jpg" class="img-responsive" alt="">
+                            <img src="/img/andrelia-quadrada-500px.jpg" class="img-responsive" alt="">
                             <div class="person-desc">
                                 <h4>Andrélia Guimarães</h4>
                                 <em>Psicóloga - CRP 05/12345</em>
