@@ -5,6 +5,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="psicologia,psicoterapia,gestalt,gestalt terapia,constelação familiar,sublocação,compartilhamento">
+        <meta name="author" content="Antonio Carlos Ribeiro">
         <!--bootstrap css-->
         <link href="/templates/codeon/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <!--custom css-->

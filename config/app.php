@@ -4,9 +4,9 @@ return [
 
     'name' => 'Núcleo Constelar',
 
-    'facebook_page' => 'https://www.facebook.com/InstitutoConstelar/',
+    'facebook_page' => 'https://www.facebook.com/NucleoConstelar/',
 
-    'twitter_page' => 'https://twitter.com/institutoconstelar',
+    'twitter_page' => 'https://twitter.com/NucleoConstelar',
 
     'env' => env('APP_ENV', 'production'),
 

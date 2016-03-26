@@ -82,9 +82,6 @@
                         <ul class="list-inline social-colored">
                             <li><a href="{{ config('app.facebook_page') }}"><i class="fa fa-facebook icon-fb" data-toggle="tooltip" title="" data-original-title="Facebook" data-placement="top"></i></a></li>
                             <li><a href="{{ config('app.twitter_page') }}"><i class="fa fa-twitter icon-twit" data-toggle="tooltip" title="" data-original-title="Twitter" data-placement="top"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus icon-plus" data-toggle="tooltip" title="" data-original-title="Google pluse" data-placement="top"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin icon-in" data-toggle="tooltip" title="" data-original-title="Linkedin" data-placement="top"></i></a></li>
-
                         </ul> <!--colored social-->
                     </div>
                 </div>
