@@ -7,8 +7,8 @@
                 <h4 class="small section-title"><span>O que a gente faz?</span></h4>
                 <h2 class="large section-title">Nossos Serviços</h2>
             </div><!--section heading-->
-
         </div><!--container-->
+
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

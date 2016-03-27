@@ -120,106 +120,8 @@
 
     <!--our work section start here-->
     <section id="work" class="padding-80">
-        <div class="work-section-1">
-            <div class="container">
-                <div class="section-heading text-center">
-                    <h4 class="small section-title"><span>Este é o nosso espaço e ele</span></h4>
-                    <h2 class="large section-title">TAMBÉM É SEU</h2>
-                </div><!--section heading-->
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="portfolio-box iso-call work-col-4">
-                        <div class="project-post photography branding">
-                            <a href="single-work.html">
-                                <div class="image-wrapper">
-                                    <img src="/templates/codeon/img/sec-img2.jpg" class="img-responsive" alt="work-1">
-                                    <div class="image-overlay">
-                                        <p>
-                                            View Detail
-                                        </p>
-                                    </div><!--.image-overlay-->
-                                </div><!--.image-wrapper-->
-                            </a>
-                            <div class="work-sesc">
-                                <p>
-                                    Sala 1
-                                </p>
-                            </div><!--.work-desc-->
-                        </div><!--project post-->
-                        <div class="project-post illustration web-design">
-                            <a href="single-work.html">
-                                <div class="image-wrapper">
-                                    <img src="/templates/codeon/img/sec-img2.jpg" class="img-responsive" alt="work-1">
-                                    <div class="image-overlay">
-                                        <p>
-                                            View Detail
-                                        </p>
-                                    </div><!--.image-overlay-->
-                                </div><!--.image-wrapper-->
-                            </a>
-                            <div class="work-sesc">
-                                <p>
-                                    Illustrate
-                                </p>
-                            </div><!--.work-desc-->
-                        </div><!--project post-->
-                        <div class="project-post photography web-design">
-                            <a href="single-work.html">
-                                <div class="image-wrapper">
-                                    <img src="/templates/codeon/img/sec-img3.jpg" class="img-responsive" alt="work-1">
-                                    <div class="image-overlay">
-                                        <p>
-                                            Sala 2
-                                        </p>
-                                    </div><!--.image-overlay-->
-                                </div><!--.image-wrapper-->
-                            </a>
-                            <div class="work-sesc">
-                                <p>
-                                    Recepção
-                                </p>
-                            </div><!--.work-desc-->
-                        </div><!--project post-->
+        @include('home.partials.space')
 
-                        <div class="project-post branding">
-                            <a href="single-work.html">
-                                <div class="image-wrapper">
-                                    <img src="/templates/codeon/img/sec-img4.jpg" class="img-responsive" alt="work-1">
-                                    <div class="image-overlay">
-                                        <p>
-                                            View Detail
-                                        </p>
-                                    </div><!--.image-overlay-->
-                                </div><!--.image-wrapper-->
-                            </a>
-                            <div class="work-sesc">
-                                <p>
-                                    Copa
-                                </p>
-                            </div><!--.work-desc-->
-                        </div><!--project post-->
-                        <div class="project-post  illustration">
-                            <a href="single-work.html">
-                                <div class="image-wrapper">
-                                    <img src="/templates/codeon/img/sec-img5.jpg" class="img-responsive" alt="work-1">
-                                    <div class="image-overlay">
-                                        <p>
-                                            View Detail
-                                        </p>
-                                    </div><!--.image-overlay-->
-                                </div><!--.image-wrapper-->
-                            </a>
-                            <div class="work-sesc">
-                                <p>
-                                    Banheiro
-                                </p>
-                            </div><!--.work-desc-->
-                        </div><!--project post-->
-                    </div>
-                </div>
-            </div><!--container-->
-        </div><!--work section 1-->
         <!--testimonials-->
         <div class="testi parallax " data-stellar-background-ratio="0.5">
             <div class="container">
@@ -373,3 +275,37 @@
     <a href="#" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
     <!--back to top end-->
 @stop
+
+@section('javascript')
+    <script>
+        jQuery(".image-overlay").on("click", function(event)
+        {
+            event.preventDefault();
+
+            var image = jQuery(event.target).closest('.image-wrapper').find('img')[0].currentSrc;
+
+            jQuery('#imagepreview').attr('src', image); // here asign the image to the modal when the user click the enlarge link
+
+            jQuery('#imagemodal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+        });
+
+        jQuery('.modal').on('show.bs.modal', centerModal);
+
+        jQuery(window).on("resize", function ()
+        {
+            jQuery('.modal:visible').each(centerModal);
+        });
+
+        function centerModal()
+        {
+            jQuery(this).css('display', 'block');
+            var $dialog = jQuery(this).find(".modal-dialog");
+            var offset = (jQuery(window).height() - $dialog.height()) / 2;
+            // Center modal vertically in window
+            $dialog.css("margin-top", offset);
+        }
+    </script>
+@stop
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Popup image</button>
+

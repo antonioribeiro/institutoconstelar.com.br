@@ -104,5 +104,7 @@
 
             google.maps.event.addDomListener(window, 'load', initialize);
         </script>
+
+        @yield('javascript')
     </body>
 </html>

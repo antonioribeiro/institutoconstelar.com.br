@@ -13,3 +13,26 @@
 .color-green {
     color: #9eca45;
 }
+
+.crop {
+    width: 260px;
+    height: 192px;
+    overflow: hidden;
+}
+
+.crop img {
+    width: 260px;
+    height: 192px;
+    margin: 0 0 0 0;
+}
+
+.container .row h4 {
+    color: #9eca45;
+}
+
+.img-responsive-height
+{
+    display: block;
+    width: auto;
+    max-height: 100%
+}
