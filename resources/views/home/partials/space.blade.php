@@ -7,7 +7,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="portfolio-box iso-call work-col-4">
+            <div class="portfolio-box iso-call work-col-3">
                 <div class="project-post photography branding">
                     <a href="#">
                         <div class="image-wrapper">
@@ -43,25 +43,6 @@
                     <div class="work-sesc">
                         <p>
                             Sala 2
-                        </p>
-                    </div><!--.work-desc-->
-                </div><!--project post-->
-                <div class="project-post photography web-design">
-                    <a href="#">
-                        <div class="image-wrapper">
-                            <div class="crop">
-                                <img src="/img/recepcao1.jpg" class="img-responsive" alt="work-1">
-                            </div>
-                            <div class="image-overlay">
-                                <p>
-                                    Ampliar
-                                </p>
-                            </div><!--.image-overlay-->
-                        </div><!--.image-wrapper-->
-                    </a>
-                    <div class="work-sesc">
-                        <p>
-                            Recepção
                         </p>
                     </div><!--.work-desc-->
                 </div><!--project post-->

@@ -15,14 +15,14 @@
 }
 
 .crop {
-    width: 260px;
-    height: 192px;
+    max-width: 360px;
+    height: 276px;
     overflow: hidden;
 }
 
 .crop img {
-    width: 260px;
-    height: 192px;
+    max-width: 360px;
+    height: 276px;
     margin: 0 0 0 0;
 }
 
