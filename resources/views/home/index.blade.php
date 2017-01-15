@@ -11,7 +11,11 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="demo-default.html">{{ config('app.name') }}</a>
+                    <a class="navbar-brand" href="demo-default.html">
+                        <object type="image/svg+xml" data="/img/logo.svg" height="70px">
+                            {{ config('app.name') }}
+                        </object>
+                    </a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right scrollto">
@@ -73,7 +77,10 @@
                          data-endelementdelay="0.1"
                          data-endspeed="300"
                          style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">
-                        {{ config('app.name') }}
+
+                        <object type="image/svg+xml" data="/img/logo.svg">
+                            {{ config('app.name') }}
+                        </object>
                     </div>
                     <!-- Home Subheading -->
                     <div class="tp-caption ken-burns-cap sft fadeout"
