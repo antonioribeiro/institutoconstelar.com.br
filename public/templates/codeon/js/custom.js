@@ -215,19 +215,13 @@ jQuery(function () {
         /* -------------------
         Header Animation
         ---------------------*/
-        if ($(this).scrollTop() > 5){  
+
+        if ($(this).scrollTop() > 5 || typeof showLogo != 'undefined'){
             $('.navbar-transparent').addClass("navbar-bg");
+            $('.navbar-brand').removeClass("hidden");
         }
         else{
             $('.navbar-transparent').removeClass("navbar-bg");
+            $('.navbar-brand').addClass("hidden");
         }
     });
-
-
-
-
-
-
-
-
-

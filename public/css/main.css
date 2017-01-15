@@ -1,0 +1,93 @@
+.pricing-wrapper-inner h2 small {
+    color: #C51D1D;
+    font-size: 14px;
+}
+
+.ken-burns-cap {
+    font-weight: 700;
+    font-size: 18px;
+    background: rgba(0, 84, 148, 0.5);
+    padding: 20px;
+}
+
+.color-green {
+    color: #9eca45;
+}
+
+/*.crop {*/
+    /*max-width: 360px;*/
+    /*height: 276px;*/
+    /*overflow: hidden;*/
+/*}*/
+
+/*.crop img {*/
+    /*max-width: 360px;*/
+    /*height: 276px;*/
+    /*margin: 0 0 0 0;*/
+/*}*/
+
+.container .row h4 {
+    color: #9eca45;
+}
+
+.img-responsive-height
+{
+    display: block;
+    width: auto;
+    max-height: 100%
+}
+
+.navbar-default .navbar-brand {
+    margin: -13px;
+}
+
+.navbar {
+    min-height: 65px;
+    margin: -15px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #8297e2 !important;
+}
+
+.container .row h4 {
+    color: #8297e2;
+}
+
+.about-box-icon i {
+    color: #8297e2;
+}
+
+.color-green {
+    color: #8297e2;
+}
+
+.btn-theme-color {
+    background-color: #8297e2;
+}
+
+.person-desc em {
+    color: #8297e2;
+}
+
+.contact-col i {
+    color: #8297e2;
+}
+
+.section-blue {
+    background-color: rgba(130, 151, 226, 0.15);
+}
+
+.internal > p.section-text {
+    font-size: 20px;
+    line-height: 1.3em;
+}
+
+.padding-80-internal {
+    padding: 63px 0;
+}
+
+a.svg {
+    position: relative;
+    display: inline-block;
+}

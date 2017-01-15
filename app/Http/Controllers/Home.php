@@ -8,4 +8,14 @@ class Home extends Controller
     {
         return view('home.index');
     }
+
+    public function gestalt()
+    {
+        return view('home.gestalt', ['showAll' => true]);
+    }
+
+    public function constelacoes()
+    {
+        return view('home.constelacoes', ['showAll' => true]);
+    }
 }

@@ -35,8 +35,79 @@
     </head>
 
     <body data-spy="scroll" data-target="#navigation" data-offset="80">
+        @yield('javascript-top')
+
+        <section id="navigation" class="fixed-navigation">
+            <div class="navbar navbar-default navbar-static-top navbar-transparent" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="demo-default.html">
+                            <object type="image/svg+xml" data="/img/logo-text-right.svg" height="55px">
+                                {{ config('app.name') }}
+                            </object>
+                        </a>
+                    </div>
+
+                    @yield('navbar-menu')
+                </div><!--/.container -->
+            </div>
+        </section><!--navigation section end here-->
 
         @yield('contents')
+
+        @include('home.partials.contact')
+
+        <div id="map-canvas" style="width:100%; height: 350px;"></div>
+        <div class="contact-sec-2">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="contact-col wow animated flipInY" data-wow-delay=".3s">
+                            <i class="fa fa-phone"></i>
+                            <p>(21) 3901-9935</p>
+                            <p>(21) 9-8092-6956</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="contact-col wow animated flipInY" data-wow-delay=".3s">
+                            <i class="fa fa-envelope"></i>
+                            <p>{{ config('mail.from.address') }}</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="contact-col wow animated flipInY" data-wow-delay=".3s">
+                            <i class="fa fa-home"></i>
+                            <p>Rua do Catete, 311 sala 1301B<br>Largo do Machado - RJ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--Contact-sec-1 end-->
+
+
+        <section id="footer" class="padding-80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 copyright">
+                        <span>&copy;2016. {{ config('app.name') }}. Desenvolvido por <a href="https://antoniocarlosribeiro.com">Antonio Carlos Ribeiro</a>.</span>
+                    </div>
+                    <div class="col-md-6 col-sm-6 footer-nav">
+                        <ul class="list-inline">
+                            <li><a href="#home" class="scrollto">Home</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section><!--footer end-->
+        <!--back to top-->
+        <a href="#" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+        <!--back to top end-->
 
         <!--script files-->
         <script src="/templates/codeon/js/jquery.min.js" type="text/javascript"></script>
@@ -106,5 +177,7 @@
         </script>
 
         @yield('javascript')
+
+        @yield('javascript-bottom')
     </body>
 </html>

@@ -1,5 +1,18 @@
 @extends('layouts.main')
 
+@section('navbar-menu')
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right scrollto">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Sobre Nós</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#work">Espaço</a></li>
+            <li><a href="#team">Equipe</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </div><!--/.nav-collapse -->
+@stop
+
 @section('contents')
     <section id="navigation" class="fixed-navigation">
         <div class="navbar navbar-default navbar-static-top navbar-transparent" role="navigation">
@@ -11,10 +24,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="demo-default.html">
-                        <object type="image/svg+xml" data="/img/logo.svg" height="70px">
-                            {{ config('app.name') }}
-                        </object>
+                    <a class="navbar-brand svg" href="/">
+                        <img src="/img/logo-text-right.svg" height="55px" alt="{{ config('app.name') }}">
                     </a>
                 </div>
                 <div class="navbar-collapse collapse">
@@ -76,45 +87,45 @@
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
                          data-endspeed="300"
-                         style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">
+                         style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap; margin-top: -300px; padding: 50px;">
 
-                        <object type="image/svg+xml" data="/img/logo.svg">
+                        <object type="image/svg+xml" data="/img/logo-azul-rosa-claro.svg" height="300px">
                             {{ config('app.name') }}
                         </object>
                     </div>
-                    <!-- Home Subheading -->
-                    <div class="tp-caption ken-burns-cap sft fadeout"
-                         data-x="center"
-                         data-y="390"
-                         data-speed="1200"
-                         data-start="1350"
-                         data-easing="Power3.easeInOut"
-                         data-splitin="none"
-                         data-splitout="none"
-                         data-elementdelay="0.1"
-                         data-endelementdelay="0.1"
-                         data-endspeed="300"
-                         style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">
-                        Psicoterapia / Gestalt Terapia / Constelação Familiar
-                    </div>
-                    <!-- Home Button -->
+                {{--<!-- Home Subheading -->--}}
+                {{--<div class="tp-caption ken-burns-cap sft fadeout"--}}
+                {{--data-x="center"--}}
+                {{--data-y="390"--}}
+                {{--data-speed="1200"--}}
+                {{--data-start="1350"--}}
+                {{--data-easing="Power3.easeInOut"--}}
+                {{--data-splitin="none"--}}
+                {{--data-splitout="none"--}}
+                {{--data-elementdelay="0.1"--}}
+                {{--data-endelementdelay="0.1"--}}
+                {{--data-endspeed="300"--}}
+                {{--style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">--}}
+                {{--Psicoterapia / Gestalt Terapia / Constelação Familiar--}}
+                {{--</div>--}}
+                <!-- Home Button -->
                     {{--<div class="tp-caption home-button sft fadeout"--}}
-                         {{--data-x="center"--}}
-                         {{--data-y="450"--}}
-                         {{--data-speed="1200"--}}
-                         {{--data-start="1550"--}}
-                         {{--data-easing="Power3.easeInOut"--}}
-                         {{--data-splitin="none"--}}
-                         {{--data-splitout="none"--}}
-                         {{--data-elementdelay="0.1"--}}
-                         {{--data-endelementdelay="0.1"--}}
-                         {{--data-endspeed="300"--}}
-                         {{--style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">--}}
-                        {{--<div class="rev-buttons scrollto">--}}
-                            {{--<a href="#work" class="btn btn-theme-color btn-lg">--}}
-                                {{--Nosso Espaço--}}
-                            {{--</a>--}}
-                        {{--</div>--}}
+                    {{--data-x="center"--}}
+                    {{--data-y="450"--}}
+                    {{--data-speed="1200"--}}
+                    {{--data-start="1550"--}}
+                    {{--data-easing="Power3.easeInOut"--}}
+                    {{--data-splitin="none"--}}
+                    {{--data-splitout="none"--}}
+                    {{--data-elementdelay="0.1"--}}
+                    {{--data-endelementdelay="0.1"--}}
+                    {{--data-endspeed="300"--}}
+                    {{--style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">--}}
+                    {{--<div class="rev-buttons scrollto">--}}
+                    {{--<a href="#work" class="btn btn-theme-color btn-lg">--}}
+                    {{--Nosso Espaço--}}
+                    {{--</a>--}}
+                    {{--</div>--}}
                     {{--</div>--}}
                 </li>
             </ul>
@@ -128,42 +139,9 @@
     <!--our work section start here-->
     <section id="work" class="padding-80">
         @include('home.partials.space')
+        @include('home.partials.testimonials')
 
-        <!--testimonials-->
-        <div class="testi parallax " data-stellar-background-ratio="0.5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center">
-                        <div id="testi-carousel" class="owl-carousel">
-                            <div>
-                                <img src="/templates/codeon/img/t-1.jpg" alt="">
-                                <h4>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia.
-                                </h4>
-                                <p>Kris watson</p>
-                            </div><!--testimonials item like paragraph-->
-                            <div>
-                                <img src="/templates/codeon/img/t-2.jpg" alt="">
-                                <h4>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia.
-                                </h4>
-                                <p>Daniel faulkner</p>
-                            </div><!--testimonials item like paragraph-->
-                            <div>
-                                <img src="/templates/codeon/img/t-3.jpg" alt="">
-                                <h4>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia.
-                                </h4>
-                                <p> Steve Smith</p>
-                            </div><!--testimonials item like paragraph-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--testimonials-->
-        <div id="team" class="work-section-2">
+        <div id="team" class="work-section-2 section-blue">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 text-center margin-btm-40">
@@ -183,7 +161,11 @@
                                         <h4>Aline Amorim</h4>
                                         <em>Psicóloga - CRP 05/43203</em>
                                         <p>
-                                            Psicóloga (UERJ/2011). Gestalt-terapeuta (IPGF/2014). Formação em Constelação Familiar (IPGF/previsão 2016). Palestrante em congressos. Atua em consultório particular atendendo adolescentes e adultos.
+                                        <p>Sou Aline Amorim, psicóloga, gestalt terapeuta e consteladora familiar.</p>
+
+                                        <p>Me graduei pela UERJ - Universidade do Estado do Rio de Janeiro em 2011 e logo iniciei o trabalho no consultório. Antes mesmo de concluir a graduação, havia iniciado o curso de especialização clínica em gestalt terapia, que foi determinante em minha forma de trabalho. Hoje sou gestalt terapeuta, abordagem da psicologia que me permite atender de forma tão flexível, transitando sempre entre os atendimentos mais tradicionais, com diálogos e reflexões, até formas menos convencionais, com experimentos lúdicos e expressivos, e que ganham vida de acordo com a necessidade do cliente.</p>
+
+                                        <p>Em 2014, iniciei o curso de formação em Constelação Familiar, ferramenta desenvolvida por Bert Helinger, e que nos permite um olhar terapêutico a partir da perspectiva transgeracional. Faz parte da prática do psicólogo a escuta sobre a história familiar, mas a Constelação Familiar proporciona um olhar ampliado sobre as questões de família. Através da perspectiva das constelações é possível compreender melhor os conflitos familiares, sendo esta um facilitador para se ter outro nível de compreensão a respeito dos sistemas familiares.</p>
                                         </p>
                                         <p>
                                             <i class="fa fa-phone"></i> (21) 9-8092-6956 <br>
@@ -202,9 +184,19 @@
                                     <div class="person-desc">
                                         <h4>Andrélia Guimarães</h4>
                                         <em>Psicóloga - CRP 05/12345</em>
+
                                         <p>
-                                            Psicóloga (USU/1988), Gestalt-terapeuta (Vita Clínica/1993 - IPGF/2014), formação em Hipnoterapia (IBH/2011). Em formação em Constelação Familiar (IPGF/previsão 2015). Coordenadora de cursos, workshops e facilitadora de processos grupais em congressos, empresas, escolas e consultório. Palestrante em escolas e empresas. Atendendo em consultório particular, crianças, adolescentes, adultos e grupos.
+                                        <p>Sou Andrélia Guimarães, psicóloga, gestalt terapeuta e consteladora familiar.</p>
+
+                                        <p>Me graduei pela Universidade Santa Úrsula em 1988, iniciei a especialização em Gestalt terapia em 1991, quando então iniciei a prática clínica, com atendimento a crianças e adultos. Em 1996 fiz formação em Terapia Vibracional, que acrescentou ao meu trabalho uma visão do campo de energia humano, e da necessidade de cuidado com o meio em que vivemos, a partir da consciência de que somos parte desse meio. Isso resultou no início de trabalhos com grupos diversos, sempre no intuito de facilitar o desenvolvimento integral do indivíduo.</p>
+
+                                        <p>Em 2011 fiz formação em hipnoterapia, no desejo de complementar o meu trabalho com a técnica da hipnose, que utilizo como mais um recurso facilitador, a partir da necessidade do cliente de aprofundar as suas questões.</p>
+
+                                        <p>Em 2012, no intuito de me atualizar, fiz outra especialização em Gestalt terapia, que foi de grande enriquecimento pessoal e profissional, fortalecendo o meu apreço por essa abordagem tão rica em recursos e tão cuidadosa com o cliente. Nesse momento pude costurar todo o meu aprendizado de anos sobre o tecido da Gestalt terapia, unificando todo o meu trabalho.</p>
+
+                                        <p>Em 2014, iniciei o curso de formação em Constelação Familiar, que ampliou a minha visão sobre as questões familiares e o valor da sua história.</p>
                                         </p>
+
                                         <p>
                                             <i class="fa fa-phone"></i> (21) 9-8761-0920 <br>
                                             <i class="fa fa-envelope"></i> <a href="mailto:andreliaguimaraes@gmail.com">andreliaguimaraes@gmail.com</a>
@@ -231,56 +223,6 @@
         </div>
         <!--fun facts-->
     </section><!--#work-section-->
-
-    <!--our work section end-->
-
-    @include('home.partials.contact')
-
-    <div id="map-canvas" style="width:100%; height: 350px;"></div>
-    <div class="contact-sec-2">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="contact-col wow animated flipInY" data-wow-delay=".3s">
-                        <i class="fa fa-phone"></i>
-                        <p>(21) 3901-9935</p>
-                        <p>(21) 9-8092-6956</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="contact-col wow animated flipInY" data-wow-delay=".3s">
-                        <i class="fa fa-envelope"></i>
-                        <p>{{ config('mail.from.address') }}</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="contact-col wow animated flipInY" data-wow-delay=".3s">
-                        <i class="fa fa-home"></i>
-                        <p>Rua do Catete, 311 sala 1301B<br>Largo do Machado - RJ</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!--Contact-sec-1 end-->
-
-
-    <section id="footer" class="padding-80">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-6 copyright">
-                    <span>&copy;2016. {{ config('app.name') }}. Desenvolvido por <a href="https://antoniocarlosribeiro.com">Antonio Carlos Ribeiro</a>.</span>
-                </div>
-                <div class="col-md-6 col-sm-6 footer-nav">
-                    <ul class="list-inline">
-                        <li><a href="#home" class="scrollto">Home</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section><!--footer end-->
-    <!--back to top-->
-    <a href="#" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
-    <!--back to top end-->
 @stop
 
 @section('javascript')
