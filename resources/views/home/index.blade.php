@@ -14,34 +14,6 @@
 @stop
 
 @section('contents')
-    <section id="navigation" class="fixed-navigation">
-        <div class="navbar navbar-default navbar-static-top navbar-transparent" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand svg" href="/">
-                        <img src="/img/logo-text-right.svg" height="55px" alt="{{ config('app.name') }}">
-                    </a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right scrollto">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">Sobre Nós</a></li>
-                        <li><a href="#services">Serviços</a></li>
-                        <li><a href="#work">Espaço</a></li>
-                        <li><a href="#team">Equipe</a></li>
-                        <li><a href="#contact">Contato</a></li>
-                    </ul>
-                </div><!--/.nav-collapse -->
-            </div><!--/.container -->
-        </div>
-    </section><!--navigation section end here-->
-
     <div class="tp-banner-container" id="home">
         <div class="tp-banner-video">
             <ul>
@@ -89,9 +61,7 @@
                          data-endspeed="300"
                          style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap; margin-top: -300px; padding: 50px;">
 
-                        <object type="image/svg+xml" data="/img/logo-azul-rosa-claro.png" height="300px">
-                            {{ config('app.name') }}
-                        </object>
+                        <img src="/img/logo.png" height="280px" alt="{{ config('app.name') }}">
                     </div>
                 {{--<!-- Home Subheading -->--}}
                 {{--<div class="tp-caption ken-burns-cap sft fadeout"--}}

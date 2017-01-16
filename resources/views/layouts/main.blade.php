@@ -47,10 +47,8 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="demo-default.html">
-                            <object type="image/svg+xml" data="/img/logo-text-right.svg" height="55px">
-                                {{ config('app.name') }}
-                            </object>
+                        <a class="navbar-brand" href="/">
+                            <img src="/img/logo-azul-rosa-claro.png" height="55px" alt="{{ config('app.name') }}">
                         </a>
                     </div>
 
