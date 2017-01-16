@@ -30,7 +30,7 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="about-box wow animated fadeInDown" data-wow-delay="0.5">
                         <div class="about-box-icon">
-                            <i class="fa fa-gg"></i>
+                            <i class="fa fa-gittip"></i>
                         </div>
                         <div class="about-box-text">
                             <h4>Gestalt terapia</h4>
@@ -56,7 +56,7 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="about-box wow animated fadeInDown" data-wow-delay="0.8s">
                         <div class="about-box-icon">
-                            <i class="fa fa-users"></i>
+                            <i class="fa fa-connectdevelop"></i>
                         </div>
                         <div class="about-box-text">
                             <h4>Constelação Familiar</h4>

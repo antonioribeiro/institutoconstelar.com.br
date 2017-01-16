@@ -168,7 +168,7 @@
                                         <p>Em 2014, iniciei o curso de formação em Constelação Familiar, ferramenta desenvolvida por Bert Helinger, e que nos permite um olhar terapêutico a partir da perspectiva transgeracional. Faz parte da prática do psicólogo a escuta sobre a história familiar, mas a Constelação Familiar proporciona um olhar ampliado sobre as questões de família. Através da perspectiva das constelações é possível compreender melhor os conflitos familiares, sendo esta um facilitador para se ter outro nível de compreensão a respeito dos sistemas familiares.</p>
                                         </p>
                                         <p>
-                                            <i class="fa fa-phone"></i> (21) 9-8092-6956 <br>
+                                            <i class="fa fa-phone"></i> <i class="fa fa-whatsapp"></i> (21) 9-8092-6956 <br>
                                             <i class="fa fa-envelope"></i> <a href="mailto:amorimaline@yahoo.com.br">amorimaline@yahoo.com.br</a>
                                         </p>
                                     </div>
@@ -198,7 +198,7 @@
                                         </p>
 
                                         <p>
-                                            <i class="fa fa-phone"></i> (21) 9-8761-0920 <br>
+                                            <i class="fa fa-phone"></i> <i class="fa fa-whatsapp"></i> (21) 9-8761-0920 <br>
                                             <i class="fa fa-envelope"></i> <a href="mailto:andreliaguimaraes@gmail.com">andreliaguimaraes@gmail.com</a>
                                         </p>
                                     </div>

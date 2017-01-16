@@ -69,7 +69,7 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="contact-col wow animated flipInY" data-wow-delay=".3s">
-                            <i class="fa fa-phone"></i>
+                            <i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-whatsapp"></i>
                             <p>(21) 3901-9935</p>
                             <p>(21) 9-8092-6956</p>
                         </div>
@@ -83,7 +83,7 @@
                     <div class="col-sm-4">
                         <div class="contact-col wow animated flipInY" data-wow-delay=".3s">
                             <i class="fa fa-home"></i>
-                            <p>Rua do Catete, 311 sala 1301B<br>Largo do Machado - RJ</p>
+                            <p>Rua do Catete, 311<br>Largo do Machado - RJ</p>
                         </div>
                     </div>
                 </div>

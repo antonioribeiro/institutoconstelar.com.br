@@ -72,7 +72,7 @@
                 <div class="col-md-4">
                     <h4>Informações para contato</h4>
                     <div class="contact-info wow animated fadeInRight" data-wow-delay=".6s">
-                        <p><i class="fa fa-home"></i> Rua do Catete, 311 sala 1301B</p>
+                        <p><i class="fa fa-home"></i> Rua do Catete, 311</p>
                         <p><i class="fa fa-phone"></i> (21) 3901-9935</p>
                         <p><i class="fa fa-mobile"></i> (21) 9-8092-6956</p>
                         <p><i class="fa fa-envelope"></i> <a href="mailto:{{ config('mail.from.address') }}">{{ config('mail.from.address') }}</a></p>
