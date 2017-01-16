@@ -89,7 +89,7 @@
                          data-endspeed="300"
                          style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap; margin-top: -300px; padding: 50px;">
 
-                        <object type="image/svg+xml" data="/img/logo-azul-rosa-claro.svg" height="300px">
+                        <object type="image/svg+xml" data="/img/logo-azul-rosa-claro.png" height="300px">
                             {{ config('app.name') }}
                         </object>
                     </div>
