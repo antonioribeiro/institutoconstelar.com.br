@@ -30,7 +30,7 @@
                         </div>
                         <div class="col-md-10">
                             <div class="services-info">
-                                <h3>Psicoterapia Individual</h3>
+                                <h3 class="color-green">Psicoterapia Individual</h3>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor.
                                 </p>
@@ -45,7 +45,7 @@
                         </div>
                         <div class="col-md-10">
                             <div class="services-info">
-                                <h3>Psicoterapia em Grupo</h3>
+                                <h3 class="color-green">Psicoterapia em Grupo</h3>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor.
                                 </p>
@@ -60,7 +60,7 @@
                         </div>
                         <div class="col-md-10">
                             <div class="services-info">
-                                <h3>Intervisão</h3>
+                                <h3 class="color-green">Intervisão</h3>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor.
                                 </p>
@@ -76,7 +76,7 @@
                         </div>
                         <div class="col-md-10">
                             <div class="services-info">
-                                <h3>Palestras</h3>
+                                <h3 class="color-green">Oficinas e workshops</h3>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor.
                                 </p>
@@ -94,7 +94,7 @@
                         </div>
                         <div class="col-md-10">
                             <div class="services-info">
-                                <h3>Compartilhamento de Salas</h3>
+                                <h3 class="color-green">Compartilhamento de Salas</h3>
                                 <p>
                                     Entendemos que parcerias em psicologia são um caminho construtivo para troca de conhecimento. Por isso investimos em uma sala para sublocação, pois esperamos receber profissionais que nos auxiliem na construção de um espaço de qualidade e referência no atendimento em psicologia. Venha conhecer nosso espaço!
                                 </p>
@@ -109,7 +109,7 @@
                         </div>
                         <div class="col-md-10">
                             <div class="services-info">
-                                <h3>Clínica Social</h3>
+                                <h3 class="color-green">Clínica Social</h3>
                                 <p>
                                     <p>Compreendemos nosso dever social e escolhemos dispor de alguns horários para atendimento em clínica social. Ou seja, clientes que buscam atendimento psicológico e não tem a possibilidade de arcar com o custo integral de uma psicoterapia, tem a oportunidade de iniciar os atendimentos de acordo com um custo acertado na primeira entrevista de avaliação. Cada situação é avaliada individualmente, de acordo com a disponibilidade de horários do psicólogo e da possibilidade do cliente que busca atendimento.</p>
                                     <p>Caso tenha interesse em realizar uma entrevista para atendimento social, entre em contato conosco para agendar.</p>
