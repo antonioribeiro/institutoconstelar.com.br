@@ -50,7 +50,7 @@
                     <!-- Home Heading -->
                     <div class="tp-caption sft Ken-burns-heading"
                          data-x="center"
-                         data-y="260"
+                         data-y="310"
                          data-speed="1200"
                          data-start="1100"
                          data-easing="Power3.easeInOut"
@@ -61,7 +61,7 @@
                          data-endspeed="300"
                          style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap; margin-top: -300px; padding: 50px;">
 
-                        <img src="/img/logo.png" height="280px" alt="{{ config('app.name') }}">
+                        <img src="/img/logo.png" width="85%" alt="{{ config('app.name') }}">
                     </div>
                 {{--<!-- Home Subheading -->--}}
                 {{--<div class="tp-caption ken-burns-cap sft fadeout"--}}
