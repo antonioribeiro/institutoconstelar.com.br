@@ -68,16 +68,8 @@
         </div>
     </div>
 
-    <div class="purchase-now parallax" data-stellar-background-ratio="0.5">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-sm-offset-1">
-                    <h1 class="wow animated fadeInLeft pull-right" data-wow-delay="0.3s">“O preço para sair da depressão é a humildade.” </h1>
-                    <h4 class="wow animated fadeInLeft pull-right" data-wow-delay="0.3s">BERT HELLINGER</h4>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('home.partials.phrase')
+
     <!--page about content end here-->
 </section>
 <!--about section end here-->

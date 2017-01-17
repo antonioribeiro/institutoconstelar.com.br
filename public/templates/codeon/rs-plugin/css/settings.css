@@ -292,7 +292,7 @@ position:absolute;
 color:#fff;
 text-shadow:0px 2px 5px rgba(0, 0, 0, 0.5);
 font-weight:700;
-font-size:14px;
+font-size:15px;
 line-height:20px;
 font-family:Arial;
 margin:0px;
@@ -504,7 +504,7 @@ letter-spacing:0;
 position:absolute;
 color:#555;
 text-shadow:none;
-font-size:14px;
+font-size:15px;
 line-height:22px;
 font-family:Arial;
 margin:0px;
@@ -1464,8 +1464,8 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 .tp-rightarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/large_right.png) no-Repeat top left;	width:40px;	height:40px;   }
 
 
-.tp-leftarrow.round										{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/small_left.png) no-Repeat top left;	width:19px;	height:14px;  margin-right:0px; float:left; margin-top:0px;	}
-.tp-rightarrow.round									{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/small_right.png) no-Repeat top left;	width:19px;	height:14px;  margin-right:0px; float:left;	margin-top:0px}
+.tp-leftarrow.round										{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/small_left.png) no-Repeat top left;	width:19px;	height:15px;  margin-right:0px; float:left; margin-top:0px;	}
+.tp-rightarrow.round									{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/small_right.png) no-Repeat top left;	width:19px;	height:15px;  margin-right:0px; float:left;	margin-top:0px}
 
 
 .tp-leftarrow.round-old									{	z-index:100;cursor:pointer; position:relative;	background:url(../assets/arrow_left.png) no-Repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left; margin-top:0px;	}
@@ -1769,7 +1769,7 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 												color: #000;
 												text-transform: uppercase;
 												font-weight: 400;
-												font-size: 14px;
+												font-size: 15px;
 												line-height: 60px;
 												padding:0px 10px;
 											}
@@ -1850,7 +1850,7 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
    		 .tparrows.preview2 						{	min-width:30px; min-height:30px; width:30px;height:30px;
 														border-radius:15px;-moz-border-radius:15px;-webkit-border-radius:15px;
 													}
-		.tparrows.preview2:after					{	position:absolute; top:50%; font-family: "revicons"; font-size:14px; margin-top: -12px}
+		.tparrows.preview2:after					{	position:absolute; top:50%; font-family: "revicons"; font-size:15px; margin-top: -12px}
 		.tp-rightarrow.preview2:after				{	content: '\e81e';  right:8px}
 		.tp-leftarrow.preview2:after				{	content: '\e81f';  left:8px}
 		.tparrows.preview2 .tp-arr-titleholder		{	font-size:10px; line-height:30px; letter-spacing: 0px}
@@ -1865,7 +1865,7 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 		.tparrows.preview2 							{	min-width:30px; min-height:30px; width:30px;height:30px;
 														border-radius:15px;-moz-border-radius:15px;-webkit-border-radius:15px;
 													}
-		.tparrows.preview2:after					{	position:absolute; top:50%; font-family: "revicons"; font-size:14px; margin-top: -12px}
+		.tparrows.preview2:after					{	position:absolute; top:50%; font-family: "revicons"; font-size:15px; margin-top: -12px}
 		.tp-rightarrow.preview2:after				{	content: '\e81e';  right:8px}
 		.tp-leftarrow.preview2:after				{	content: '\e81f';  left:8px}
 		.tparrows.preview2 .tp-arr-titleholder		{	display:none;visibility:none}
@@ -2101,7 +2101,7 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 
     @media only screen  and (max-width: 767px) {
    		 .tparrows.preview4 						{	width:20px; height:80px}
-   		 .tparrows.preview4:after					{	width:20px; height:80px; line-height:80px; font-size:14px}
+   		 .tparrows.preview4:after					{	width:20px; height:80px; line-height:80px; font-size:15px}
 
    		 .tparrows.preview1 .tp-arr-allwrapper,
    		 .tparrows.preview2 .tp-arr-allwrapper,

@@ -181,16 +181,7 @@
         </div><!--team section end-->
 
         <!--fun facts-->
-        <div class="purchase-now parallax" data-stellar-background-ratio="0.5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8 col-sm-offset-1">
-                        <h1 class="wow animated fadeInLeft pull-right" data-wow-delay="0.3s">"A verdade só pode ser tolerada se descoberta por conta própria."</h1>
-                        <h4 class="wow animated fadeInLeft pull-right" data-wow-delay="0.3s">FRITZ PERLS</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
+        @include('home.partials.phrase')
         <!--fun facts-->
     </section><!--#work-section-->
 @stop

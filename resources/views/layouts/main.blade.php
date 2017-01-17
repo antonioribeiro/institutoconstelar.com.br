@@ -7,6 +7,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="keywords" content="psicologia,psicoterapia,gestalt,gestalt terapia,constelação familiar,sublocação,compartilhamento">
         <meta name="author" content="Antonio Carlos Ribeiro">
+
+        @include('layouts.partials.favicon')
+
         <!--bootstrap css-->
         <link href="/templates/codeon/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <!--custom css-->
@@ -93,7 +96,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-6 copyright">
-                        <span>&copy;2016. {{ config('app.name') }}. Desenvolvido por <a href="https://antoniocarlosribeiro.com">Antonio Carlos Ribeiro</a>.</span>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <span>&copy; Copyright 2016-2017 {{ config('app.name') }} - Todos os direitos reservados</span>
+                            </div>
+                            <div class="col-md-12">
+                                Desenvolvido por <a href="https://antoniocarlosribeiro.com">Antonio Carlos Ribeiro</a></span>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="col-md-6 col-sm-6 footer-nav">
                         <ul class="list-inline">
@@ -136,43 +147,9 @@
         <script src="/templates/codeon/js/revolution-custom.js" type="text/javascript"></script>
         <script src="/templates/codeon/js/isotope-custom.js" type="text/javascript"></script>
         <script src="/templates/codeon/js/pace.min.js" type="text/javascript"></script>
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-        <script type="text/javascript">
-            var myLatlng;
-            var map;
-            var marker;
 
-            function initialize() {
-                myLatlng = new google.maps.LatLng(-22.930835, -43.177645);
-
-                var mapOptions = {
-                    zoom: 18,
-                    center: myLatlng,
-                    mapTypeId: google.maps.MapTypeId.ROADMAP,
-                    scrollwheel: false,
-                    draggable: true
-                };
-                map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-                var contentString = '<p>123 My Street, Codeon City, CA 4567</p>';
-
-                var infowindow = new google.maps.InfoWindow({
-                    content: contentString
-                });
-
-                marker = new google.maps.Marker({
-                    position: myLatlng,
-                    map: map,
-                    title: 'Marker'
-                });
-
-                google.maps.event.addListener(marker, 'click', function () {
-                    infowindow.open(map, marker);
-                });
-            }
-
-            google.maps.event.addDomListener(window, 'load', initialize);
-        </script>
+        @include('layouts.partials.googlemaps')
+        @include('layouts.partials.googleanalytics')
 
         @yield('javascript')
 

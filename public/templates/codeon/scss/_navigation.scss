@@ -17,7 +17,7 @@ bootstrap navbar overrides
 .navbar-default .navbar-nav > li > a {
     color: #000;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     font-family: $primary-font;
 }
@@ -28,7 +28,7 @@ bootstrap navbar overrides
     cursor: pointer;
     color: #000;
     text-transform:uppercase;
-    font-size:14px;
+    font-size:15px;
     &:hover{
         color:$skincolor;
     }
