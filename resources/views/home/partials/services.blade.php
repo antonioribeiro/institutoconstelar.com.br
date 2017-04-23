@@ -31,9 +31,7 @@
                         <div class="col-md-10">
                             <div class="services-info">
                                 <h3 class="color-green">Psicoterapia Individual</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor.
-                                </p>
+                                @include('home.partials.psicoterapia-individual')
                             </div>
                         </div>
                     </div><!--.services row end-->
@@ -47,7 +45,7 @@
                             <div class="services-info">
                                 <h3 class="color-green">Psicoterapia em Grupo</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor.
+                                    @include('home.partials.psicoterapia-grupo')
                                 </p>
                             </div>
                         </div>
@@ -61,13 +59,15 @@
                         <div class="col-md-10">
                             <div class="services-info">
                                 <h3 class="color-green">Intervisão</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor.
-                                </p>
+                                @include('home.partials.intervisao')
                             </div>
                         </div>
                     </div><!--.services row end-->
 
+
+                </div>
+
+                <div class="col-md-6 wow animated fadeInRight" data-wow-delay="0.6s">
                     <div class="row margin-btm-20">
                         <div class="col-md-2">
                             <div class="services-icon">
@@ -76,16 +76,11 @@
                         </div>
                         <div class="col-md-10">
                             <div class="services-info">
-                                <h3 class="color-green">Oficinas e workshops</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget viverra augue. Nunc dignissim rutrum tempor.
-                                </p>
+                                <h3 class="color-green">Palestras, oficinas e workshops</h3>
+                                @include('home.partials.palestras')
                             </div>
                         </div>
                     </div><!--.services row end-->
-                </div>
-
-                <div class="col-md-6 wow animated fadeInRight" data-wow-delay="0.6s">
                     <div class="row margin-btm-20">
                         <div class="col-md-2">
                             <div class="services-icon">
@@ -122,28 +117,6 @@
         </div>
     </div><!--services section 1 end-->
 
-    <div id="#newsletter" class="services-section-2 parallax" data-stellar-background-ratio="0.5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h5 class="color-green">Fique por dentro do que acontece no Núcleo Constelar</h5>
-                    <h1>Inscreva-se na nossa Newsletter</h1>
-                    <form class="newsletter-form">
-                        <div class="row">
-                            <div class="col-sm-4 col-sm-offset-4">
-                                <div class="input-group">
-                                    <label class="sr-only" for="subscribe-email">Email address</label>
-                                    <input type="email" class="form-control" id="subscribe-email" placeholder="Enter your email">
-                                            <span class="input-group-btn">
-                                                <button type="submit" class="btn btn-theme-color btn-lg">OK</button>
-                                            </span>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div><!--services section 1 end-->
+    @include('home.partials.newsletter')
 </section>
 <!--section services end here-->

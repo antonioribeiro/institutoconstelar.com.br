@@ -19,13 +19,23 @@ class Phrases
 
         return static::$items = collect([
             [
-                'author' => 'Bert Hellinger',
-                'phrase' => 'O preço para sair da depressão é a humildade.',
+                'author' => 'Gary Yontef',
+                'phrase' => 'A experiência é mais confiável do que a interpretação.',
             ],
 
             [
-                'author' => 'Fritz Perls',
-                'phrase' => 'A verdade só pode ser tolerada se descoberta por conta própria.',
+                'author' => 'Bert Hellinger',
+                'phrase' => 'Nas profundezas o futuro e o passado são indênticos. Ali só existe espaço, não existe tempo.',
+            ],
+
+            [
+                'author' => 'Bert Hellinger',
+                'phrase' => 'Através da constelação tenho, repentinamente, acesso a uma realidade que não consigo perceber por meio do pensamento.',
+            ],
+
+            [
+                'author' => 'Gary Yontef',
+                'phrase' => 'Na gestalt terapia o paciente é visto como um colaborador, aprendendo a autocurar-se.',
             ],
         ])->shuffle();
     }

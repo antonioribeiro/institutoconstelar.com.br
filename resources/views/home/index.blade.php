@@ -124,7 +124,7 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="person">
-                            <img src="/img/aline-quadrada-500px.jpg" class="img-responsive" alt="">
+                            <img src="/img/aline-quadrada-1200px.jpg" class="img-responsive" alt="">
                             <div class="row">
                                 <div class="col-sm-10 col-sm-offset-1">
                                     <div class="person-desc">
@@ -148,7 +148,7 @@
                     </div><!--team-col-->
                     <div class="col-sm-6">
                         <div class="person">
-                            <img src="/img/andrelia-quadrada-500px.jpg" class="img-responsive" alt="">
+                            <img src="/img/andrelia-quadrada-1200px.jpg" class="img-responsive" alt="">
                             <div class="row">
                                 <div class="col-sm-10 col-sm-offset-1">
                                     <div class="person-desc">

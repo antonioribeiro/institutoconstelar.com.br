@@ -74,7 +74,8 @@
                     <div class="contact-info wow animated fadeInRight" data-wow-delay=".6s">
                         <p><i class="fa fa-home"></i> Rua do Catete, 311</p>
                         <p><i class="fa fa-phone"></i> (21) 3901-9935</p>
-                        <p><i class="fa fa-mobile"></i> (21) 9-8092-6956</p>
+                        <p><i class="fa fa-mobile"></i> (21) 9-8092-6956 (Aline)</p>
+                        <p><i class="fa fa-mobile"></i> (21) 9-8761-0920 (Andrélia)</p>
                         <p><i class="fa fa-envelope"></i> <a href="mailto:{{ config('mail.from.address') }}">{{ config('mail.from.address') }}</a></p>
                         <p><i class="fa fa-clock-o"></i> Segunda-Sexta 8:00-21:00pm</p>
                         <hr>

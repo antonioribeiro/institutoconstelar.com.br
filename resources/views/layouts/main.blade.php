@@ -72,7 +72,8 @@
                         <div class="contact-col wow animated flipInY" data-wow-delay=".3s">
                             <i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-whatsapp"></i>
                             <p>(21) 3901-9935</p>
-                            <p>(21) 9-8092-6956</p>
+                            <p>(21) 9-8092-6956 (Aline)</p>
+                            <p>(21) 9-8761-0920 (Andrélia)</p>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -101,7 +102,7 @@
                                 <span>&copy; Copyright 2016-2017 {{ config('app.name') }} - Todos os direitos reservados</span>
                             </div>
                             <div class="col-md-12">
-                                Desenvolvido por <a href="https://antoniocarlosribeiro.com">Antonio Carlos Ribeiro</a></span>
+                                Desenvolvimento e fotografia: <a href="https://antoniocarlosribeiro.com">Antonio Carlos Ribeiro</a></span>
                             </div>
                         </div>
 

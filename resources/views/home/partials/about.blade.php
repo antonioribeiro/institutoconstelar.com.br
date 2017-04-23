@@ -6,7 +6,9 @@
                 <h4 class="small section-title"><span>A gente ama o que faz!</span></h4>
                 <h2 class="large section-title">Sobre Nós</h2>
             </div><!--section heading-->
-
+            <div class="person">
+                <img src="/img/aline-andrelia.jpg" class="img-responsive" alt="">
+            </div>
         </div><!--container-->
         <div class="container">
             <div class="row">
@@ -18,9 +20,9 @@
                         <div class="about-box-text">
                             <h4>Nossa história</h4>
                             <p>
-                                O espaço surgiu de uma parceria entre as psicólogas Andrelia Guimarães e Aline Amorim, que após alguns anos de parcerias em oficinas e workshops, acreditaram que havia chegado o momento de construir "um lugar para chamar de nosso". Em pouco tempo o Núcleo Constelar já possuía endereço e em 05/01/2016 estava sendo inaugurado.
+                                O espaço surgiu da parceria entre as psicólogas Andrelia Guimarães e Aline Amorim, que após alguns anos trabalhando juntas em oficinas e workshops, acreditaram que havia chegado o momento de construir "um lugar para chamar de nosso". Em pouco tempo o Núcleo Constelar já possuía endereço e em 05 de janeiro de 2016 iniciou suas atividades.
                                 Pensado inicialmente como um espaço para atendimento em psicoterapia, a ideia se ampliou e construimos um espaço para receber também outros profissionais de psicologia, oficinas, workshops, psicoterapia de grupo, entre outros.
-                                O sentido da palavra nos trouxe o nome que hoje batiza o nosso espaço. Buscamos construir um lugar de troca e crescimento, e daí surgiu o nome Núcleo Constelar, um espaço para reunir, juntar, honrar, cobrir-se de estrelas.
+                                O sentido da palavra “constelar" nos trouxe o nome que hoje batiza o nosso espaço. Um espaço para reunir, juntar, honrar, cobrir-se de estrelas. Buscamos construir um lugar de troca e crescimento, e daí surgiu o Núcleo Constelar.
                                 Nosso logotipo foi pensado como uma árvore, construída a partir de pessoas reunidas em busca de bem estar. Uma árvore de raízes profundas, e com galhos extensos, capaz de comportar grande diversidade de pessoas e ideias.
                                 Venha conhecer o Núcleo Constelar. Será um prazer receber você!
                             </p>
@@ -47,9 +49,7 @@
                         </div>
                         <div class="about-box-text">
                             <h4>Psicoterapia</h4>
-                            <p>
-                                A psicoterapia (do grego psykhē - mente, e therapeuein - curar; primeira referência ca. 1890) é um tipo de terapia, cuja finalidade é tratar os problemas psicológicos, tais como depressão, ansiedade, dificuldades de relacionamento, entre outros problemas de saúde mental.[1] É um processo dialético efetuado entre um profissional, o psicoterapeuta - que pode ser psicólogo ou psiquiatra - , e o cliente ou paciente.
-                            </p>
+                            @include('home.partials.psicoterapia-individual')
                         </div>
                     </div><!--about us box end-->
                 </div>

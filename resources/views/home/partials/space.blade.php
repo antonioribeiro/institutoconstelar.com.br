@@ -1,8 +1,8 @@
 <div class="work-section-1">
     <div class="container">
         <div class="section-heading text-center">
-            <h4 class="small section-title"><span>Este é o nosso espaço e ele</span></h4>
-            <h2 class="large section-title">TAMBÉM É SEU</h2>
+            <h4 class="small section-title"><span>Nosso espaço</span></h4>
+            <h2 class="large section-title">Seja bem-vindo</h2>
         </div><!--section heading-->
     </div>
     <div class="container">
@@ -51,7 +51,7 @@
                     <a href="#">
                         <div class="image-wrapper">
                             <div class="crop">
-                                <img src="/img/recepcao2.jpg" class="img-responsive" alt="work-1">
+                                <img src="/img/recepcao1.jpg" class="img-responsive" alt="work-1">
                             </div>
                             <div class="image-overlay">
                                 <p>
