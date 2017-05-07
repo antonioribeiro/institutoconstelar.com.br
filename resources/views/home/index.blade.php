@@ -50,7 +50,7 @@
                     <!-- Home Heading -->
                     <div class="tp-caption sft Ken-burns-heading"
                          data-x="center"
-                         data-y="5"
+                         data-y="150"
                          data-speed="1200"
                          data-start="1100"
                          data-easing="Power3.easeInOut"
