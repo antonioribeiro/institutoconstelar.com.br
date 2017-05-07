@@ -17,6 +17,7 @@
     <style>
         .logo-big {
             position: relative;
+            width: 70%;
         }
 
         .logo-big-panel {
