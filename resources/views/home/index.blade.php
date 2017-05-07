@@ -24,7 +24,7 @@
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 1 -->
-                    <div class="tp-caption tp-fade fadeout fullscreenvideo"
+                    <div class=""
                          data-x="0"
                          data-y="0"
                          data-speed="1000"
