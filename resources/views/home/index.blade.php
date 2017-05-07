@@ -14,6 +14,24 @@
 @stop
 
 @section('contents')
+    <style>
+        .logo-big {
+            position: relative;
+        }
+
+        .logo-big-panel {
+            position: absolute;
+            top: 10%;
+            left: 0;
+            width: 100%;
+            z-index: 999;
+            text-align: center;
+        }
+    </style>
+    <div class="logo-big-panel">
+        <img src="/img/logo-big-shadow.png" class="logo-big" align="middle" width="90%" alt="{{ config('app.name') }}">
+    </div>
+
     <div class="tp-banner-container" id="home">
         <div class="tp-banner-video">
             <ul>
@@ -47,22 +65,22 @@
                         </video>
                     </div>
 
-                    <!-- Home Heading -->
-                    <div class="tp-caption sft Ken-burns-heading"
-                         data-x="center"
-                         data-y="-80"
-                         data-speed="1200"
-                         data-start="1100"
-                         data-easing="Power3.easeInOut"
-                         data-splitin="none"
-                         data-splitout="none"
-                         data-elementdelay="0.1"
-                         data-endelementdelay="0.1"
-                         data-endspeed="300"
-                         style="z-index: 4;">
+                    {{--<!-- Home Heading -->--}}
+                    {{--<div class="tp-caption sft Ken-burns-heading logo-big"--}}
+                         {{--data-x="center"--}}
+                         {{--data-y="-80"--}}
+                         {{--data-speed="1200"--}}
+                         {{--data-start="1100"--}}
+                         {{--data-easing="Power3.easeInOut"--}}
+                         {{--data-splitin="none"--}}
+                         {{--data-splitout="none"--}}
+                         {{--data-elementdelay="0.1"--}}
+                         {{--data-endelementdelay="0.1"--}}
+                         {{--data-endspeed="300"--}}
+                         {{--style="z-index: 4;">--}}
 
-                        <img src="/img/logo-big-shadow.png" width="90%" alt="{{ config('app.name') }}">
-                    </div>
+                        {{--<img src="/img/logo-big-shadow.png" width="90%" alt="{{ config('app.name') }}">--}}
+                    {{--</div>--}}
                 {{--<!-- Home Subheading -->--}}
                 {{--<div class="tp-caption ken-burns-cap sft fadeout"--}}
                 {{--data-x="center"--}}
