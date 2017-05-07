@@ -15,9 +15,20 @@
 
 @section('contents')
     <style>
+        @media (max-width: 400px) {
+            .logo-big {
+                width: 90%;
+            }
+        }
+
+        @media (min-width: 401px) {
+            .logo-big {
+                width: 70%;
+            }
+        }
+
         .logo-big {
             position: relative;
-            width: 70%;
         }
 
         .logo-big-panel {
