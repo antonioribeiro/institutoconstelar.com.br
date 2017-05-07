@@ -28,6 +28,10 @@
         <link href="/templates/codeon/css/owl.theme.css" rel="stylesheet" type="text/css" media="screen">
         <!--Revolution slider css-->
         <link href="/templates/codeon/rs-plugin/css/settings.css" rel="stylesheet" type="text/css" media="screen">
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.2.6/vue.js"></script>
+        <script src="//cdn.jsdelivr.net/vue.resource/1.3.1/vue-resource.min.js"></script>
+
         <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
         <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -51,7 +55,7 @@
                             <span class="icon-bar"></span>
                         </button>
                         <a class="navbar-brand" href="/">
-                            <img src="/img/logo-azul-rosa-claro.png" height="55px" alt="{{ config('app.name') }}">
+                            <img src="/img/logo-nome-juntos.svg" height="55px" alt="{{ config('app.name') }}">
                         </a>
                     </div>
 
@@ -154,6 +158,10 @@
 
         @yield('javascript')
 
+        @yield('javascript-page')
+
         @yield('javascript-bottom')
+
+        @include('scripts.vueNewsletter')
     </body>
 </html>
