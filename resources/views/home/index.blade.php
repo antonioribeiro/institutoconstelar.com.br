@@ -50,7 +50,7 @@
                     <!-- Home Heading -->
                     <div class="tp-caption sft Ken-burns-heading"
                          data-x="center"
-                         data-y="150"
+                         data-y="-80"
                          data-speed="1200"
                          data-start="1100"
                          data-easing="Power3.easeInOut"
@@ -59,7 +59,7 @@
                          data-elementdelay="0.1"
                          data-endelementdelay="0.1"
                          data-endspeed="300"
-                         style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap; margin-top: -300px; padding: 50px;">
+                         style="z-index: 4;">
 
                         <img src="/img/logo-big-shadow.png" width="90%" alt="{{ config('app.name') }}">
                     </div>
