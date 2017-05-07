@@ -28,13 +28,13 @@
                                 O sentido da palavra “constelar" deu origem ao nome que hoje batiza o espaço. Um espaço para reunir, juntar, honrar, cobrir-se de estrelas. Buscamos construir um lugar de troca e crescimento, e assim surgiu o <strong>Núcleo Constelar</strong>.
                             </p>
 
-                            <p class="text-center">
-                                <img src="/img/logo-big-shadow.png" alt="logo" width="220px">
-                            </p>
-
                             <p>
                                 O logotipo representa uma árvore, construída a partir de pessoas reunidas em busca de bem estar. Uma árvore de raízes profundas, e com galhos extensos, capaz de comportar grande diversidade de pessoas e ideias.
                                 Venha conhecer o Núcleo Constelar. Será um prazer receber você!
+                            </p>
+
+                            <p class="text-center">
+                                <img src="/img/logo-big-shadow.png" alt="logo" width="220px">
                             </p>
                         </div>
                     </div><!--about us box end-->
