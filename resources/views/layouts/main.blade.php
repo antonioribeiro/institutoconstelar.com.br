@@ -55,7 +55,7 @@
                             <span class="icon-bar"></span>
                         </button>
                         <a class="navbar-brand" href="/">
-                            <img src="/img/logo-nome-juntos.svg" height="55px" alt="{{ config('app.name') }}">
+                            <img src="/img/logo-big-shadow.png" height="55px" alt="{{ config('app.name') }}">
                         </a>
                     </div>
 

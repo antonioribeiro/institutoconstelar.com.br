@@ -29,7 +29,7 @@
                             </p>
 
                             <p class="text-center">
-                                <img src="/img/logo-nome-juntos.svg" alt="logo" width="220px">
+                                <img src="/img/logo-big-shadow.png" alt="logo" width="220px">
                             </p>
 
                             <p>
