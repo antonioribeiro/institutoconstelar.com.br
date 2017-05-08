@@ -221,8 +221,7 @@ $(window).scroll(function(){
         $('.navbar-transparent').addClass("navbar-bg");
         $('.navbar-brand').removeClass("hidden");
     }
-    else{
-        console.log('what size?', $(this).width());
+    else {
         if ($(this).width() < 400) {
             $('.navbar-transparent').addClass("hidden");
         }

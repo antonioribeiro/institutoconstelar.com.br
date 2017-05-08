@@ -45,8 +45,9 @@
             text-align: center;
         }
     </style>
+
     <div class="logo-big-panel">
-        <img src="/img/logo-big-shadow.png" class="logo-big" align="middle" width="90%" alt="{{ config('app.name') }}">
+        <img src="/img/logo-big-shadow-white.png" class="logo-big" align="middle" width="90%" alt="{{ config('app.name') }}">
     </div>
 
     <div class="tp-banner-container" id="home">
