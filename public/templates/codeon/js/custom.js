@@ -211,17 +211,23 @@ jQuery(function () {
     jQuery(".player").mb_YTPlayer();
 });
 
- $(window).scroll(function(){      
-        /* -------------------
-        Header Animation
-        ---------------------*/
+$(window).scroll(function(){
+    /* -------------------
+    Header Animation
+    ---------------------*/
 
-        if ($(this).scrollTop() > 5 || typeof showLogo != 'undefined'){
-            $('.navbar-transparent').addClass("navbar-bg");
-            $('.navbar-brand').removeClass("hidden");
+    if ($(this).scrollTop() > 50 || typeof showLogo != 'undefined') {
+        $('.navbar-transparent').removeClass("hidden");
+        $('.navbar-transparent').addClass("navbar-bg");
+        $('.navbar-brand').removeClass("hidden");
+    }
+    else{
+        console.log('what size?', $(this).width());
+        if ($(this).width() < 400) {
+            $('.navbar-transparent').addClass("hidden");
         }
-        else{
-            $('.navbar-transparent').removeClass("navbar-bg");
-            $('.navbar-brand').addClass("hidden");
-        }
-    });
+
+        $('.navbar-transparent').removeClass("navbar-bg");
+        $('.navbar-brand').addClass("hidden");
+    }
+});

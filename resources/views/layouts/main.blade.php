@@ -45,7 +45,7 @@
         @yield('javascript-top')
 
         <section id="navigation" class="fixed-navigation">
-            <div class="navbar navbar-default navbar-static-top navbar-transparent" role="navigation">
+            <div class="navbar navbar-default navbar-static-top navbar-transparent hidden" role="navigation">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">

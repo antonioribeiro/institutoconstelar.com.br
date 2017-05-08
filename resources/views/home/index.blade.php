@@ -19,11 +19,17 @@
             .logo-big {
                 width: 90%;
             }
+            .logo-big-panel {
+                top: 10%;
+            }
         }
 
         @media (min-width: 401px) {
             .logo-big {
                 width: 70%;
+            }
+            .logo-big-panel {
+                top: 15%;
             }
         }
 
@@ -33,7 +39,6 @@
 
         .logo-big-panel {
             position: absolute;
-            top: 15%;
             left: 0;
             width: 100%;
             z-index: 999;
