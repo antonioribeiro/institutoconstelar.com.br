@@ -15,7 +15,7 @@
                 <div class="row">
                     <div class="col-sm-12 text-center margin-btm-40">
                         <div class="section-heading text-center">
-                            <h2 class="large section-title">Constelação familiar</h2>
+                            <h2 class="large section-title">Constelação Familiar</h2>
                         </div>
                     </div>
                 </div><!--.row-->
