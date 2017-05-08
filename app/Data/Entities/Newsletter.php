@@ -4,6 +4,10 @@ namespace App\Data\Entities;
 
 class Newsletter extends Eloquent
 {
+    protected $table = 'newsletter';
+
+    protected $fillable = ['email'];
+
     private function findByEmail($email)
     {
         return static::where('email', $email)->first();

@@ -2,12 +2,25 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ValidateNewsletter;
+use App\Services\Newsletter\Service as NewsLetterService;
+
 class Newsletter extends Controller
 {
-    public function register()
+    /**
+     * @var NewsLetterService
+     */
+    private $newsletterService;
+
+    public function __construct(NewsLetterService $newsletterService)
+    {
+        $this->newsletterService = $newsletterService;
+    }
+
+    public function register(ValidateNewsletter $validateNewsletter)
     {
         return [
-            'registered' => Newsletter::register(request()->get('email')),
+            'registered' => $this->newsletterService->register(request()->get('email')),
         ];
     }
 }

@@ -12,23 +12,27 @@
                 response: null,
             },
 
+            __registered: function (data) {
+                this.registering = false;
+
+                this.registered = data.registered;
+
+                this.response = data;
+            },
+
             methods: {
                 __register: function () {
                     this.registering = true;
 
                     var url = '/api/v1/newsletter/register';
 
-                    this.$http.post(url, {email: this.email}).then(
+                    axios.post(url, {email: this.email}).then(
                         function(response) {
-                            this.registering = false;
-
-                            this.registered = response.body.registered;
-
-                            this.response = response.body;
-                        },
-
-                        this.__requestError
-                    );
+                            this.__registered(response.data)
+                        }
+                    ).catch(function (error) {
+                        this.__requestError(error)
+                    });
                 },
 
                 __requestError: function(error) {
