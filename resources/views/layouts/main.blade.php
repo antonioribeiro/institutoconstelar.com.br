@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="keywords" content="psicologia,psicoterapia,gestalt,gestalt terapia,constelação familiar,sublocação,compartilhamento">
+        <meta name="keywords" content="{{ config('app.keywords') }}">
         <meta name="author" content="Antonio Carlos Ribeiro">
 
         @include('layouts.partials.favicon')

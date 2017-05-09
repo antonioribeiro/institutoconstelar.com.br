@@ -4,6 +4,8 @@ return [
 
     'name' => 'Núcleo Constelar',
 
+    'keywords' => 'psicologia,psicoterapia,gestalt,gestalt terapia,constelação familiar,sublocação,hellinger sciencia,largo do machado, catete, flamengo, zona sul',
+
     'facebook_page' => 'https://www.facebook.com/NucleoConstelar/',
 
     'twitter_page' => 'https://twitter.com/NucleoConstelar',
