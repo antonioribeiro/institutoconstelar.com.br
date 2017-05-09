@@ -8,6 +8,8 @@ return [
 
     'twitter_page' => 'https://twitter.com/NucleoConstelar',
 
+    'admins' => env('MAIL_ADMINS'),
+
     'env' => env('APP_ENV', 'production'),
 
     'debug' => env('APP_DEBUG', false),
@@ -22,7 +24,7 @@ return [
 
     'timezone' => 'America/Sao_Paulo',
 
-    'locale' => 'pt-br',
+    'locale' => 'pt-BR',
 
     'fallback_locale' => 'en',
 
@@ -77,6 +79,7 @@ return [
          * Package Service Providers...
          */
         Laravel\Tinker\TinkerServiceProvider::class,
+        Spatie\Newsletter\NewsletterServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -135,7 +138,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        'MailChimp' => Spatie\Newsletter\NewsletterFacade::class,
     ],
 
 ];
+

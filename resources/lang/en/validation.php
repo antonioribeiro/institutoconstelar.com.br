@@ -98,8 +98,8 @@ return [
     */
 
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        'email' => [
+            'unique' => 'Você já está registrado. Obrigado.',
         ],
     ],
 
@@ -114,6 +114,8 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'email' => 'endereço email'
+    ],
 
 ];

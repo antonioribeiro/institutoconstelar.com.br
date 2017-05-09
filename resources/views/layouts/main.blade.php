@@ -29,14 +29,19 @@
         <!--Revolution slider css-->
         <link href="/templates/codeon/rs-plugin/css/settings.css" rel="stylesheet" type="text/css" media="screen">
 
-        <script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.2.6/vue.js"></script>
-        <script src="//cdn.jsdelivr.net/vue.resource/1.3.1/vue-resource.min.js"></script>
-
         <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
         <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <script src="/templates/codeon/js/respond.min.js"></script>
         <![endif]-->
+
+        <script>
+            window.Laravel = '{!! json_encode([
+                'csrfToken' => csrf_token(),
+                'email' => session()->get('newsletter.email'),
+                'registered' => session()->get('newsletter.registered') ? 'true' : 'false',
+            ]) !!}';
+        </script>
 
         <link href="/css/main.css" rel="stylesheet">
     </head>
@@ -124,6 +129,8 @@
         <!--back to top end-->
 
         <!--script files-->
+        <script src="/js/app.js" type="text/javascript"></script>
+
         <script src="/templates/codeon/js/jquery.min.js" type="text/javascript"></script>
         <script src="/templates/codeon/js/moderniz.min.js" type="text/javascript"></script>
         <script src="/templates/codeon/js/jquery-migrate.min.js" type="text/javascript"></script>
@@ -161,7 +168,5 @@
         @yield('javascript-page')
 
         @yield('javascript-bottom')
-
-        @include('scripts.vueNewsletter')
     </body>
 </html>

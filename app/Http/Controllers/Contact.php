@@ -17,7 +17,7 @@ class Contact extends Controller
 
             foreach (explode(',', env('MAIL_TO_INTERNAL')) as $name)
             {
-                $message->to($name, env('MAIL_FROM_NAME'))->subject('Mensagem de '.$data['name']);
+                $message->to($name, config('app.admins'))->subject('Mensagem de '.$data['name']);
             }
         });
     }
