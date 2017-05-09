@@ -21,6 +21,8 @@
                 </div>
             </div><!--.container-->
         </div><!--team section end-->
+
+        @include('home.partials.phrase')
     </section><!--#work-section-->
 
     <!--our work section end-->

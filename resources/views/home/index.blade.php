@@ -182,9 +182,7 @@
             </div><!--.container-->
         </div><!--team section end-->
 
-        <!--fun facts-->
         @include('home.partials.phrase')
-        <!--fun facts-->
     </section><!--#work-section-->
 @stop
 
