@@ -9,7 +9,7 @@
                         <div class="col-sm-4 col-sm-offset-4">
                             <div class="input-group">
                                 <label class="sr-only" for="subscribe-email">Endereço e-mail</label>
-                                <input v-model="email" type="email" class="form-control" id="subscribe-email" placeholder="Endereço e-mail">
+                                <input v-model="form.email" type="email" class="form-control" id="subscribe-email" placeholder="Endereço e-mail">
                                 <span class="input-group-btn">
                                     <button @click="__register" class="btn btn-theme-color btn-lg">Enviar</button>
                                 </span>

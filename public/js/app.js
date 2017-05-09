@@ -775,6 +775,7 @@ window.Vue = __webpack_require__(37);
 Vue.component('example', __webpack_require__(34));
 
 window.newsletter = __webpack_require__(49);
+window.contact = __webpack_require__(50);
 
 /***/ }),
 /* 9 */
@@ -41430,12 +41431,13 @@ module.exports = __webpack_require__(9);
 /***/ (function(module, exports) {
 
 if (jQuery("#vue-newsletter").length) {
-    console.log('what:');
     var app = new Vue({
         el: '#vue-newsletter',
 
         data: {
-            email: window.Laravel.email,
+            form: {
+                email: null
+            },
             registered: window.Laravel.registered,
             registering: false,
             response: null,
@@ -41457,7 +41459,7 @@ if (jQuery("#vue-newsletter").length) {
 
                 var vue = this;
 
-                axios.post(url, { email: this.email }).then(function (response) {
+                axios.post(url, this.form).then(function (response) {
                     vue.__registered(response.data);
                 }).catch(function (error) {
                     vue.__requestError(error.response);
@@ -41465,6 +41467,49 @@ if (jQuery("#vue-newsletter").length) {
             },
             __requestError: function __requestError(error) {
                 this.error = error.data['email'][0];
+            }
+        }
+    });
+}
+
+/***/ }),
+/* 50 */
+/***/ (function(module, exports) {
+
+if (jQuery("#vue-contact").length) {
+    var app = new Vue({
+        el: '#vue-contact',
+
+        data: {
+            form: {
+                name: null,
+                email: null,
+                phone: null,
+                message: null
+            },
+            errors: null,
+            sent: false,
+            sending: false,
+            error: null
+        },
+
+        methods: {
+            __submit: function __submit() {
+                this.sending = true;
+
+                var url = '/api/v1/contact';
+
+                var vue = this;
+
+                axios.post(url, this.form).then(function () {
+                    vue.sending = false;
+
+                    vue.sent = true;
+                }).catch(function (error) {
+                    vue.sending = false;
+
+                    vue.errors = error.response.data;
+                });
             }
         }
     });

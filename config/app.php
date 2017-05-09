@@ -8,7 +8,15 @@ return [
 
     'twitter_page' => 'https://twitter.com/NucleoConstelar',
 
-    'admins' => env('MAIL_ADMINS'),
+    'mail' => [
+        'admins' => env('MAIL_ADMINS'),
+
+        'from' => [
+            'address' => env('MAIL_FROM_ADDRESS'),
+
+            'name' => env('MAIL_FROM_NAME'),
+        ],
+    ],
 
     'env' => env('APP_ENV', 'production'),
 

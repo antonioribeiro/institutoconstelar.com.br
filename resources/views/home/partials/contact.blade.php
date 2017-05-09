@@ -1,4 +1,4 @@
-<section id="contact" class="padding-80">
+<section id="vue-contact" class="padding-80">
     <div class="contact-sec-1">
         <div class="container">
             <div class="section-heading text-center">
@@ -10,64 +10,16 @@
             <div class="row">
                 <div class="col-md-8">
                     <h4>Envie uma mensagem</h4>
-                    <form action="{{ route('contact') }}" name="sentMessage" id="contactForm" method="post" novalidate>
-                        <input type="hidden" name="_token" id="_token" value="{{ csrf_token() }}">
 
-                        <div class="row">
-                            <div class="col-md-7">
-                                <div class="row control-group">
-                                    <div class="form-group col-xs-12 controls">
-                                        <label>Nome<span>*</span></label>
-                                        <input name="name" type="text" class="form-control" placeholder="Nome" id="name" required data-validation-required-message="Por favor digite seu nome.">
-                                        <p class="help-block"></p>
-                                    </div>
-                                </div>
+                    <div v-if="! sent">
+                        @include('home.partials.contact-form')
+                    </div>
 
-                            </div>
-
-                            <div class="col-md-5">
-                                <div class="row control-group">
-                                    <div class="form-group col-xs-12 controls">
-                                        <label>Email<span>*</span></label>
-                                        <input name="email" type="email" class="form-control" placeholder="Endereço Email" id="email" required data-validation-required-message="Por favor digite seu email.">
-                                        <p class="help-block"></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-7">
-                                <div class="row control-group">
-                                    <div class="form-group col-xs-12 controls">
-                                        <label>Mensagem<span>*</span></label>
-                                        <textarea name="message" rows="5" class="form-control" placeholder="Mensagem" id="message" required data-validation-required-message="Por favor digite uma mensagem."></textarea>
-                                        <p class="help-block"></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-5">
-                                <div class="row control-group">
-                                    <div class="form-group col-xs-12 controls">
-                                        <label>Telefone</label>
-                                        <input name="phone" type="text" class="form-control" placeholder="Telefone" id="phone" required data-validation-required-message="Por favor digite seu nome.">
-                                        <p class="help-block"></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <br>
-
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button name="submit" type="submit" class="btn btn-theme-color btn-lg">Enviar Mensagem</button>
-                            </div>
-                        </div>
-                    </form>
-                    <!--contact form-->
+                    <div v-if="sent">
+                        <h3>
+                            Sua mensagem for recebida, obrigado!
+                        </h3>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <h4>Informações para contato</h4>

@@ -6,4 +6,3 @@ Route::get('/constelacoes', ['as' => 'constelacoes', 'uses' => 'Home@constelacoe
 
 Route::get('/gestalt', ['as' => 'gestalt', 'uses' => 'Home@gestalt']);
 
-Route::post('contact', ['as' => 'contact', 'uses' => 'Contact@send']);

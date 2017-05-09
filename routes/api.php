@@ -8,4 +8,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::group(['prefix' => '/v1', 'middleware' > 'web'], function () {
     Route::post('/newsletter/register', ['as' => 'api.newsletter.register', 'uses' => 'Newsletter@register']);
+
+    Route::post('/contact', ['as' => 'contact', 'uses' => 'Contact@send']);
 });

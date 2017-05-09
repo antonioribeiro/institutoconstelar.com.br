@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use App\Http\Requests\Request;
 
-class Contact extends Request
+class ValidateContact extends Request
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -24,7 +24,10 @@ class Contact extends Request
     public function rules()
     {
         return [
-            //
+            'email' => 'required|email|unique:newsletter,email',
+            'name' => 'required',
+            'phone' => 'required',
+            'message' => 'required',
         ];
     }
 }

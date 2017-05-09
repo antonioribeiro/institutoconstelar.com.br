@@ -8,7 +8,7 @@ class Users
 {
     public function getAdmins()
     {
-        return collect(explode(',', config('app.admins')))->map(function($email) {
+        return collect(explode(',', config('app.mail.admins')))->map(function($email) {
             return new User(['email' => $email]);
         });
     }

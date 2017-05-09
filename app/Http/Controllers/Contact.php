@@ -2,23 +2,32 @@
 
 namespace App\Http\Controllers;
 
+use App\Data\Repositories\Users;
 use Mail;
-use Illuminate\Support\Facades\Request;
-use App\Http\Requests\Contact as ContactRequest;
+use App\Http\Requests\ValidateContact;
 
 class Contact extends Controller
 {
-    public function send(ContactRequest $request)
+    /**
+     * @var Users
+     */
+    private $usersRepository;
+
+    public function __construct(Users $usersRepository)
+    {
+        $this->usersRepository = $usersRepository;
+    }
+
+    public function send(ValidateContact $request)
     {
         $data = $request->all();
 
         Mail::send('emails.contact', ['data' => $data], function ($message) use ($data) {
-            $message->from(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME'));
+            $message->from(config('app.mail.from.address'), config('app.mail.from.name'));
 
-            foreach (explode(',', env('MAIL_TO_INTERNAL')) as $name)
-            {
-                $message->to($name, config('app.admins'))->subject('Mensagem de '.$data['name']);
-            }
+            $this->usersRepository->getAdmins()->each(function ($admin) use ($message, $data) {
+                $message->to($admin->email)->subject('Mensagem de '.$data['name']);
+            });
         });
     }
 }

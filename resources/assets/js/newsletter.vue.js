@@ -1,11 +1,12 @@
 if (jQuery("#vue-newsletter").length)
 {
-    console.log('what:');
     var app = new Vue({
         el: '#vue-newsletter',
 
         data: {
-            email: window.Laravel.email,
+            form: {
+                email: null
+            },
             registered: window.Laravel.registered,
             registering: false,
             response: null,
@@ -28,7 +29,7 @@ if (jQuery("#vue-newsletter").length)
 
                 var vue = this;
 
-                axios.post(url, {email: this.email}).then(
+                axios.post(url, this.form).then(
                     function(response) {
                         vue.__registered(response.data)
                     }
