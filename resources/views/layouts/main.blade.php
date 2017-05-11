@@ -35,6 +35,11 @@
         <script src="/templates/codeon/js/respond.min.js"></script>
         <![endif]-->
 
+        <head>
+            <script src="/templates/codeon/js/pace.min.js" type="text/javascript"></script>
+            <link href="/pace/themes/pace-theme-barber-shop.css" rel="stylesheet" />
+        </head>
+
         <script>
             window.Laravel = '{!! json_encode([
                 'csrfToken' => csrf_token(),
@@ -48,6 +53,10 @@
 
     <body data-spy="scroll" data-target="#navigation" data-offset="80">
         @yield('javascript-top')
+
+        <div id="hideAll"></div>
+
+        @include('layouts.partials.hide-all')
 
         <section id="navigation" class="fixed-navigation">
             <div class="navbar navbar-default navbar-static-top navbar-transparent hidden" role="navigation">
@@ -100,7 +109,6 @@
                 </div>
             </div>
         </div><!--Contact-sec-1 end-->
-
 
         <section id="footer" class="padding-80">
             <div class="container">
@@ -158,9 +166,9 @@
         <script src="/templates/codeon/rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
         <script src="/templates/codeon/js/revolution-custom.js" type="text/javascript"></script>
         <script src="/templates/codeon/js/isotope-custom.js" type="text/javascript"></script>
-        <script src="/templates/codeon/js/pace.min.js" type="text/javascript"></script>
 
         @include('layouts.partials.googlemaps')
+
         @include('layouts.partials.googleanalytics')
 
         @yield('javascript')
