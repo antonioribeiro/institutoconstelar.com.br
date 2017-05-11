@@ -68,7 +68,7 @@
                         </a>
                     </div>
 
-                    @yield('navbar-menu')
+                    @include('home.partials.menu')
                 </div><!--/.container -->
             </div>
         </section><!--navigation section end here-->
