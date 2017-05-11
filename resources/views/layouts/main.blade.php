@@ -35,11 +35,6 @@
         <script src="/templates/codeon/js/respond.min.js"></script>
         <![endif]-->
 
-        <head>
-            <script src="/templates/codeon/js/pace.min.js" type="text/javascript"></script>
-            <link href="/pace/themes/pace-theme-barber-shop.css" rel="stylesheet" />
-        </head>
-
         <script>
             window.Laravel = '{!! json_encode([
                 'csrfToken' => csrf_token(),
@@ -160,6 +155,7 @@
         <script src="/templates/codeon/js/jquery.countdown.js" type="text/javascript"></script>
         <script src="/templates/codeon/js/contact_me.js" type="text/javascript"></script>
         <script src="/templates/codeon/js/jqBootstrapValidation.js" type="text/javascript"></script>
+        <script src="/templates/codeon/js/pace.min.js" type="text/javascript"></script>
         <script src="/templates/codeon/js/custom.js" type="text/javascript"></script>
         <!--revolution slider plugins-->
         <script src="/templates/codeon/rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
